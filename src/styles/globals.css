@@ -1,5 +1,41 @@
+/* CLASSI GENERALI */
+
 @import "tailwindcss";
 
 body {
-  background-color: #eae6e6;
+  background-color: #fafafa;
+}
+
+.authCustom {
+  background-color: #ffffff;
+  border: 1px solid #c0c0c098;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.textCustom {
+  position: relative;
+  bottom: 12px;
+}
+
+.inputCustom {
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.btnCustom {
+  background-color: #ff3d00;
+  border-radius: 8px;
+  padding: 13px 15px;
+  font-weight: 500;
+}
+
+/* ANIMAZIONI */
+
+.inputCustom:focus {
+  box-shadow: 0 0 0 0.5px black;
 }
