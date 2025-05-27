@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function Register() {
-  const [password, setPassword] = useState('');
+  const [setPassword] = useState('');
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="flex flex-col gap-4 bg-gray-100 p-8 w-full max-w-md authCustom">
