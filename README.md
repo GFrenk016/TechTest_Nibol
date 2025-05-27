@@ -1,40 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Front-end Dev Test - Nibol
 
-## Getting Started
+Questo progetto è stato realizzato come test tecnico per la posizione di front-end developer presso Nibol.
+L'app è sviluppata in Next.js, utilizza Tailwind CSS per lo stile e Zustand per la gestione dello stato.
+Tech Stack:
+- Next.js - React Framework
+- Tailwind CSS - CSS utility-first
+- Zustand - Global state management
+- localStorage - Persistenza credenziali lato client
 
-First, run the development server:
-
-```bash
+Installazione:
+1. Clona la repository:
+git clone https://github.com/tuo-username/nibol-tech-test.git
+2. Entra nella cartella del progetto:
+cd nibol-tech-test
+3. Installa le dipendenze:
+npm install
+4. Avvia il server di sviluppo:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Struttura cartelle:
+src/
+- components/ -> Componenti riutilizzabili
+- pages/ -> Routing Next.js
+- store/ -> Zustand store
+- styles/ -> File globali Tailwind
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Funzionalità:
+- Form di Login/Register secondo Figma
+- Responsive a tutti i breakpoint
+- Stato persistente con Zustand + localStorage
+- Feedback forza password
+- Validazioni base
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Note:
+- Il design è stato rispettato il più possibile rispetto a Figma.
+- L'app è ottimizzata per mobile, tablet e desktop.
+- Nessun backend: interazioni simulate.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Checklist Pre-consegna:
+- [x] Interfaccia completata
+- [x] Stato persistente
+- [x] Design fedele
+- [x] README incluso
+- [x] Codice su GitHub pubblico
